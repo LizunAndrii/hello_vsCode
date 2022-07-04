@@ -1,12 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
-  background-color: black;
+  max-width: 1440px;
+  max-height: 85px;
+  background-color: #cc9999;
+  margin: 0 auto;
 }
 
 body {
-  background-color: aqua;
-}
-
-body h1 {
-  font-size: 25px;
-  color: red;
+  font-family: Montserrat;
+  font-weight: 400;
 }
